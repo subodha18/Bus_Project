@@ -6,6 +6,7 @@ import Owneri from './Components/Own/Owneri';
 import Info from './Components/Owninfo/Info';
 import Navba from './Components/Home/Navba';
 import Footer from './Components/Foot/Footer';
+import Apply_info from './Components/Apply/Apply_info';
 
 // const approuter=createBrowserRouter(
 //   [
@@ -34,8 +35,10 @@ function App() {
       {/* <div>
         <RouterProvider router={approuter} />
       </div> */}
+      
       {/* <Navba /> */}
-      <Footer />
+      {/* <Apply_info /> */}
+      {/* <Footer /> */}
     </>
   )
 }
