@@ -5,6 +5,7 @@ import User from './Components/use/User'
 import Owneri from './Components/Own/Owneri';
 import Info from './Components/Owninfo/Info';
 import Navba from './Components/Home/Navba';
+import Footer from './Components/Foot/Footer';
 
 // const approuter=createBrowserRouter(
 //   [
@@ -33,8 +34,8 @@ function App() {
       {/* <div>
         <RouterProvider router={approuter} />
       </div> */}
-      <Navba />
-      
+      {/* <Navba /> */}
+      <Footer />
     </>
   )
 }

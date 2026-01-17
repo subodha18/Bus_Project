@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#icn-con{
+    height:160px;
+    width: 100vw;
+    background-color:rgba(0, 0, 0, 0.882);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icn{
+    height:48px;
+    width: 100vw;
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.icns {
+    height: 50px;
+    width: 55px;
+    color: aliceblue;
+}
+.icns:hover{
+    /* color:rgb(62, 152, 57); */
+    box-shadow: 10px 0 20px rgba(255, 85, 0, 0.351);
+    transform: scale(1.05) translatey(-1px);
+    /* box-shadow: 0 5px 15px #00bcd450; */
+}
