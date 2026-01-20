@@ -38,13 +38,13 @@ function App() {
         <RouterProvider router={approuter} />
       </div> */}
       
-      {/* <Navba /> <br /> */}
-      {/* <Apply_info /><br/> */}
-      
-      {/* <Addfe /><br/> */}
-      {/* <Place /><br/> */}
-      {/* <Footer /> */}
+      {/* <Navba /> <br />
+      <Apply_info /><br/> */}
       <Ticket />
+      {/* <Addfe /><br/>
+      <Place /><br/>
+      <Footer /> */}
+      
     </>
   )
 }

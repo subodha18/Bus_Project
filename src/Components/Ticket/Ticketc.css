@@ -1,10 +1,20 @@
+#main-co{
+    height: 300px;
+    width: 1250px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
 #tik-con{
     height: 300px;
     width: 1200px;
     border:1px solid black;
     display: flex;
     flex-direction: column;
+    gap:5px;
 }
+
 #check{
     height: 50px;
     width: 1160px;
@@ -13,4 +23,50 @@
     gap:15px;
     align-items: center;
 }
+#abcx{
+    height: 130px;
+    width: 1180px;
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 10px;
+}
+.lab{
+    position: relative;
+    height: 100%;
+    width: 25%;
+    border: 1px solid black;
+    
+}
+.bor{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.start{
+    position: relative;
+    height: 100%;
+    width: 18%;
+    border: 1px solid black;
+}
+.seat{
+    position: relative;
+    height: 100%;
+    width: 14%;
+    border: 1px solid black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
+#offer-con{
+    height:100px;
+    width: 1180px;
+    display: flex;
+    gap: 5px;
+    border: 1px solid black;
+    align-items: center;
+}
+.off{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+}
