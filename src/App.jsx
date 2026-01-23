@@ -50,8 +50,11 @@ function App() {
       <Addfe /><br/>
       <Place /><br/>
       <Footer /> */}
-      {/* <Subus /> */}
-      
+      {/* <Subus />
+      <br />
+      <Footer /> */}
+      {/* <Info /> */}
+      {/* <Login /> */}
     </>
   )
 }

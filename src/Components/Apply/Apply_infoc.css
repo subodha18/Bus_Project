@@ -1,4 +1,4 @@
-#para-con{
+/* #para-con{
     height:auto;
     width: 1200px;
     display: flex;
@@ -17,4 +17,124 @@
     height: auto;
     width: 1100px;
     font-size: 17px;
+} */
+/* This is the new css */
+/* body {
+  background-color: #fff7ed;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#para-con {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+.faq-title {
+  text-align: center;
+  color: #f97316;
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.para-co {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.faq-card {
+  background: white;
+  border-left: 6px solid #f97316;
+  border-radius: 12px;
+  padding: 20px 25px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.faq-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+.faq-card h4 {
+  color: #111;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.faq-card p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.faq-card b {
+  color: #16a34a;
+} */
+
+/* new */
+
+/* Page background */
+body {
+  background-color: #fff7ed;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+#para-con {
+  max-width: 1150px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #fff, #fff3e0);
+  border-radius: 18px;
+}
+
+
+.para-co {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-bottom: 30px;
+}
+
+
+.main-para {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 22px 26px;
+  font-size: 16.5px;
+  line-height: 1.7;
+  color: #222;
+  border-left: 6px solid #f97316;
+  border-right: 6px solid #16f9a2;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.main-para:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.12);
+}
+
+
+.main-para::first-line {
+  font-weight: bold;
+  color: #111;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, #f97316, #16a34a);
+  margin: 18px 0;
+  border-radius: 2px;
+}
+
+
+.main-para b {
+  color: #16a34a; 
 }

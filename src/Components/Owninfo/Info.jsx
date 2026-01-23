@@ -2,32 +2,32 @@ import React from 'react'
 import './Infoc.css'
 const Info = () => {
   return (
-    <div className='owner-container'>
+    <div className='owner-conta'>
       <p>This is Bus Information.</p>
-      <div className='input-container2'>
+      <div className='input-conta'>
 
-        <label for="name">ownername:</label>
-        <input type='text'placeholder='Enter name' id='name'/>
+        <label for="nam">ownername:</label>
+        <input type='text'placeholder='Enter name' id='nam'/>
         <br />
-        <label for="name">Bus no:</label>
+        <label for="bnum">Bus no:</label>
         <input type='number'placeholder='Enter register no' id='bnum'/>
         <br />
-        <label for="bname">Bus name:</label>
-        <input type='text'placeholder='Enter bus name' id='bname'/>
+        <label for="bnam">Bus name:</label>
+        <input type='text'placeholder='Enter bus name' id='bnam'/>
         <br />
-        <label for="btype">Bus Type:</label>
-        <input type='text'placeholder='Enter bus type' id='btype'/>
+        <label for="btyp">Bus Type:</label>
+        <input type='text'placeholder='Enter bus type' id='btyp'/>
         <br />
         <label for="name">Total Seats:</label>
-        <input type='text'placeholder='Enter tital seats' id='name'/>
+        <input type='number'placeholder='Enter tital seats' id='name'/>
         <br />
-        <label for="state">State:</label>
-        <input type='text'placeholder='Enter state' id='state'/>
+        <label for="stat">State:</label>
+        <input type='text'placeholder='Enter state' id='stat'/>
         <br />
         
         </div>
         <div >
-          <button className='btn'>submit</button>
+          <button className='btn3'>submit</button>
         </div>
     </div>
   )

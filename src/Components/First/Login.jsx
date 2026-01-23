@@ -5,10 +5,10 @@ const Login = () => {
   return (
     <div className='log-container'>
       <p>Hii This is Login.</p>
-      <div className='btn-container'>
+      <div className='btn1-container'>
 
-        <Link to='/owner'><button className='btn'>Owner</button></Link>
-        <Link to='/user'><button className='btn'>User</button></Link>
+        <Link to='/owner'><button className='btn1'>Owner</button></Link>
+        <Link to='/user'><button className='btn1'>User</button></Link>
 
       </div>
     </div>

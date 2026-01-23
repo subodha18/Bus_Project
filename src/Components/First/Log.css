@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
 }
@@ -25,6 +25,71 @@
     border-radius: 10px;
     font-size:medium;
     font-weight: bold;
+} */
+ /* new */
+ /* Page background */
+.log-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #F47216, #ff9f45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card design */
+.login-card {
+  background-color: white;
+  padding: 40px 35px;
+  width: 350px;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border-top: 6px solid #1e7f3c; /* green accent */
+}
+
+
+
+
+/* Button container */
+.btn1-container {
+    height: 100px;
+    width: 300px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* Common button style */
+.btn1 {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #F47216;
+  color: white;
+}
+
+
+.btn1:hover {
+  background-color: #e45f0d;
+  transform: translateY(-2px);
+}
+
+/* User button */
+.btn1 {
+  background-color: #1e7f3c;
+  color: white;
+}
+
+.btn1:hover {
+  background-color: #613916;
+  transform: translateY(-2px);
 }
 
 

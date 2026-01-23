@@ -1,4 +1,94 @@
-*{
-    margin: 0px;
-    padding: 0px;
+/* Full page setup */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* MAIN BACKGROUND – TOTAL PAGE COLOR RATIO */
+.owner-conta {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    to bottom,
+  
+    #f47216 50%,    
+
+    /* #16a34a 50%, */
+    #16a34a 70%     
+
+    /* #ffffff 70%,
+    #ffffff 85% */
+  );
+
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Heading text */
+.owner-conta p {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Form card */
+.input-conta {
+  background: white;
+  padding: 20px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+}
+
+/* Labels */
+.input-conta label {
+  font-size: 17px;
+  font-weight: 500;
+  color: black;
+}
+
+/* Inputs */
+.input-conta input {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 6px 0 12px 0;
+  border-radius: 8px;
+  border: 2px solid #f47216;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Input focus */
+.input-conta input:focus {
+  border-color: green;
+}
+
+/* Button */
+.btn3 {
+  margin-top: 20px;
+  padding: 10px 26px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  background: linear-gradient(
+    135deg,
+    #1e7f3c,
+    #f47216
+  );
+}
+
+/* Button hover */
+.btn3:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+  background: rgb(70, 93, 70);
 }
