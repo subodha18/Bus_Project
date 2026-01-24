@@ -1,4 +1,4 @@
-body{
+/* body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -76,4 +76,142 @@ body{
     box-shadow:
         0 3px 0 #00667a,
         0 6px 12px rgba(0,0,0,0.5);
+} */
+
+
+/* new */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+/* 15% Black Influence: Transparent Overlay Background */
+#nav-contain {
+    width: 100%;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* background: rgba(28, 28, 27, 0.017); */
+}
+
+/* The Floating Capsule Navbar */
+#navbar {
+    max-width: 100vw;
+    margin: 0 auto;
+    background:rgb(255, 115, 0); /* 15% Black Influence */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    border-radius: 10px; /* Capsule shape */
+    
+    /* 55% Orange & 20% Green: Dual-color glowing border */
+    border-bottom: 3px solid #FF8C00;
+    border-right: 3px solid #2ecc71;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo Section */
+/* #logoi {
+    display: flex;
+    align-items: center;
+} */
+
+/* #pho {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+    transition: transform 0.3s ease;
+}
+
+#pho:hover {
+    transform: rotate(-5deg) scale(1.05);
+} */
+
+/* Buttons and Select Container */
+#mulbtn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* 15% White Influence: Label and Inputs */
+#in {
+    text-align: left;
+}
+
+#lvl {
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+#stn {
+    background: #222;
+    color: #ffffff;
+    border: 1px solid #444;
+    padding: 5px 15px;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+#stn:focus {
+    border-color: #2ecc71; /* Green focus */
+}
+
+/* 55% Orange Influence: Buttons */
+.nan-btn {
+    background: #FF8C00;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+}
+
+/* 20% Green Influence: Hover State */
+.nan-btn:hover {
+    background: #2ecc71;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(46, 204, 113, 0.4);
+}
+
+.nan-btn:active {
+    transform: translateY(0);
+}
+
+/* Special styling for the Login button to make it stand out */
+.nan-btn:last-child {
+    background: #ffffff; /* 15% White Influence */
+    color: #000000;
+    border: 2px solid #FF8C00;
+}
+
+/* Responsive Design */
+@media (max-width: 1000px) {
+    #navbar {
+        border-radius: 20px;
+        padding: 15px;
+    }
+    #mulbtn {
+        gap: 10px;
+    }
+    .nan-btn {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
 }

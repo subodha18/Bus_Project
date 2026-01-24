@@ -8,7 +8,7 @@ const Navba = () => {
     <div id='navbar'>
         {/* <p>This is Navbar page.</p> */}
         <div id='logoi'>
-            <img id='pho'src={logo2} alt="logo" width="200"  />
+            <img id='pho'src={logo2} alt="logo" width="150"  />
         </div>
 
         <div id='mulbtn'>

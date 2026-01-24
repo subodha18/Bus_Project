@@ -16,14 +16,16 @@ const Footer = () => {
             <a href="#"><FontAwesomeIcon icon={faFacebook} className='icns'/></a>
         </div>
         <div id='play-icn'>
-          <div id='parat'>
+          <div className='parat'>
             <p>For better experience,download the app now</p>
           </div>
           <div id='icn2'>
             <img src={app_store} alt="app" height={50} width={140}/>
             <img src={play_store} alt="app" height={50} width={140}/>
           </div>
-          
+          <div className='par'>
+            <p>made by subodha Pvt.Ltd. </p>
+          </div>
         </div>
     </div>
   )
